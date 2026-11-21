@@ -9,3 +9,7 @@ Fan-run hangout site for LitRPG, fantasy and sci-fi readers: https://loreandloot
 Run locally: `npm install`, then `npx netlify-cli dev`.
 
 Hosted on Netlify (project `loreandlootclub`). Domain registered at Namecheap.
+
+## The shelf
+
+`/shelf` lists every finished series. Edit `data/shelf.json`, then run `python3 scripts/build-shelf.py` to rebuild the list, the genre counts, the home page teaser and `llms.txt`.

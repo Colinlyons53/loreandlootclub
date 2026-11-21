@@ -1,0 +1,442 @@
+[
+ {
+  "series": "The Wandering Inn",
+  "author": "pirateaba",
+  "narrator": "Andrea Parsneau, Erin Bennett",
+  "books": "Books 1-19",
+  "count": 19,
+  "genre": "litrpg"
+ },
+ {
+  "series": "Cradle",
+  "author": "Will Wight",
+  "narrator": "Travis Baldree",
+  "books": "Books 1-12",
+  "count": 12,
+  "genre": "litrpg"
+ },
+ {
+  "series": "The Primal Hunter",
+  "author": "Zogarth",
+  "narrator": "Travis Baldree",
+  "books": "Books 1-14",
+  "count": 14,
+  "genre": "litrpg"
+ },
+ {
+  "series": "Defiance of the Fall",
+  "author": "TheFirstDefier, JF Brink",
+  "narrator": "Pavi Proczko",
+  "books": "Books 1-14",
+  "count": 14,
+  "genre": "litrpg"
+ },
+ {
+  "series": "He Who Fights with Monsters",
+  "author": "Shirtaloon",
+  "narrator": "Heath Miller",
+  "books": "Books 1-12",
+  "count": 12,
+  "genre": "litrpg"
+ },
+ {
+  "series": "Victor of Tucson",
+  "author": "MC Gallup, Plum Parrot",
+  "narrator": "Robb Moreira",
+  "books": "Books 1-10",
+  "count": 10,
+  "genre": "litrpg"
+ },
+ {
+  "series": "Dungeon Crawler Carl",
+  "author": "Matt Dinniman",
+  "narrator": "Jeff Hays",
+  "books": "Books 1-8",
+  "count": 8,
+  "genre": "litrpg"
+ },
+ {
+  "series": "The Path of Ascension",
+  "author": "C. Mantis",
+  "narrator": "J.S. Arquin",
+  "books": "Books 1-8",
+  "count": 8,
+  "genre": "litrpg"
+ },
+ {
+  "series": "Chaos Seeds (The Land)",
+  "author": "Aleron Kong",
+  "narrator": "Nick Podehl",
+  "books": "Books 1-8",
+  "count": 8,
+  "genre": "litrpg"
+ },
+ {
+  "series": "Chrysalis",
+  "author": "RinoZ",
+  "narrator": "Jeff Hays, Annie Ellicott",
+  "books": "Books 1-7",
+  "count": 7,
+  "genre": "litrpg"
+ },
+ {
+  "series": "Life Reset",
+  "author": "Shemer Kuznits",
+  "narrator": "Jeff Hays, Annie Ellicott, Laurie Catherine Winkel",
+  "books": "Books 1-6",
+  "count": 6,
+  "genre": "litrpg"
+ },
+ {
+  "series": "My Best Friend Is an Eldritch Horror",
+  "author": "Actus",
+  "narrator": "Peter Berkrot",
+  "books": "Books 1-6",
+  "count": 6,
+  "genre": "litrpg"
+ },
+ {
+  "series": "Beware of Chicken",
+  "author": "Casualfarmer",
+  "narrator": "Travis Baldree",
+  "books": "Books 1-5",
+  "count": 5,
+  "genre": "litrpg"
+ },
+ {
+  "series": "Tower of Jack",
+  "author": "Sean Loomer",
+  "narrator": "Johnathan McClain",
+  "books": "Books 1-4",
+  "count": 4,
+  "genre": "litrpg"
+ },
+ {
+  "series": "Vainqueur the Dragon",
+  "author": "Maxime J. Durand",
+  "narrator": "Jack Voraces",
+  "books": "Books 1-4",
+  "count": 4,
+  "genre": "litrpg"
+ },
+ {
+  "series": "Discount Dan's Backroom Bargains",
+  "author": "James Hunter",
+  "narrator": "Steve Campbell",
+  "books": "Books 1-3",
+  "count": 3,
+  "genre": "litrpg"
+ },
+ {
+  "series": "Nightmare Realm Summoner",
+  "author": "Actus",
+  "narrator": "Robb Moreira",
+  "books": "Book 1",
+  "count": 1,
+  "genre": "litrpg"
+ },
+ {
+  "series": "Hell Difficulty Tutorial",
+  "author": "Cerim",
+  "narrator": "Henry Kramer",
+  "books": "Book 1",
+  "count": 1,
+  "genre": "litrpg"
+ },
+ {
+  "series": "The Wheel of Time",
+  "author": "Robert Jordan, Brandon Sanderson",
+  "narrator": "Michael Kramer, Kate Reading",
+  "books": "Books 1-14",
+  "count": 14,
+  "genre": "fantasy"
+ },
+ {
+  "series": "Codex Alera",
+  "author": "Jim Butcher",
+  "narrator": "",
+  "books": "Books 1-6",
+  "count": 6,
+  "genre": "fantasy"
+ },
+ {
+  "series": "The Stormlight Archive",
+  "author": "Brandon Sanderson",
+  "narrator": "Michael Kramer, Kate Reading",
+  "books": "Books 1-5",
+  "count": 5,
+  "genre": "fantasy"
+ },
+ {
+  "series": "A Song of Ice and Fire",
+  "author": "George R.R. Martin",
+  "narrator": "",
+  "books": "Books 1-5",
+  "count": 5,
+  "genre": "fantasy"
+ },
+ {
+  "series": "The Lord of the Rings and The Hobbit",
+  "author": "J.R.R. Tolkien",
+  "narrator": "Rob Inglis",
+  "books": "All 4",
+  "count": 4,
+  "genre": "fantasy"
+ },
+ {
+  "series": "The Riftwar Saga",
+  "author": "Raymond E. Feist",
+  "narrator": "",
+  "books": "Books 1-4",
+  "count": 4,
+  "genre": "fantasy"
+ },
+ {
+  "series": "The Kingkiller Chronicle",
+  "author": "Patrick Rothfuss",
+  "narrator": "",
+  "books": "Books 1-2, plus The Slow Regard of Silent Things",
+  "count": 3,
+  "genre": "fantasy"
+ },
+ {
+  "series": "The Keeper Chronicles",
+  "author": "JA Andrews",
+  "narrator": "Tim Gerard Reynolds",
+  "books": "Books 1-3",
+  "count": 3,
+  "genre": "fantasy"
+ },
+ {
+  "series": "Dragon Blood",
+  "author": "Lindsay Buroker",
+  "narrator": "Caitlin Davies",
+  "books": "Books 1-3",
+  "count": 3,
+  "genre": "fantasy"
+ },
+ {
+  "series": "The Dark Elf Trilogy (Legend of Drizzt)",
+  "author": "R.A. Salvatore",
+  "narrator": "",
+  "books": "Books 1-3",
+  "count": 3,
+  "genre": "fantasy"
+ },
+ {
+  "series": "Harry Potter",
+  "author": "J.K. Rowling",
+  "narrator": "",
+  "books": "Books 1-3",
+  "count": 3,
+  "genre": "fantasy"
+ },
+ {
+  "series": "Neil Gaiman novels",
+  "author": "Neil Gaiman",
+  "narrator": "",
+  "books": "American Gods, Anansi Boys, The Ocean at the End of the Lane",
+  "count": 3,
+  "genre": "fantasy"
+ },
+ {
+  "series": "Warformed: Stormweaver",
+  "author": "Bryce O'Connor, Luke Chmilenko",
+  "narrator": "Luke Daniels",
+  "books": "Books 1-2",
+  "count": 2,
+  "genre": "fantasy"
+ },
+ {
+  "series": "The Farseer Trilogy",
+  "author": "Robin Hobb",
+  "narrator": "",
+  "books": "Book 1",
+  "count": 1,
+  "genre": "fantasy"
+ },
+ {
+  "series": "Black Ocean: Galaxy Outlaws",
+  "author": "J.S. Morin",
+  "narrator": "Mikael Naramore",
+  "books": "Missions 1-16.5",
+  "count": 17,
+  "genre": "scifi"
+ },
+ {
+  "series": "The Deathless Saga",
+  "author": "Chris Fox",
+  "narrator": "Ryan Kennard Burke",
+  "books": "Books 0.5-6",
+  "count": 7,
+  "genre": "scifi"
+ },
+ {
+  "series": "Dune",
+  "author": "Frank Herbert",
+  "narrator": "",
+  "books": "Books 1-5",
+  "count": 5,
+  "genre": "scifi"
+ },
+ {
+  "series": "The Ender Quintet",
+  "author": "Orson Scott Card",
+  "narrator": "",
+  "books": "All 5",
+  "count": 5,
+  "genre": "scifi"
+ },
+ {
+  "series": "The Hitchhiker's Guide to the Galaxy",
+  "author": "Douglas Adams",
+  "narrator": "",
+  "books": "Books 1-5",
+  "count": 5,
+  "genre": "scifi"
+ },
+ {
+  "series": "Star Wars: Republic Commando",
+  "author": "Karen Traviss",
+  "narrator": "",
+  "books": "Books 1-5",
+  "count": 5,
+  "genre": "scifi"
+ },
+ {
+  "series": "Old Man's War",
+  "author": "John Scalzi",
+  "narrator": "William Dufris",
+  "books": "Books 1-4",
+  "count": 4,
+  "genre": "scifi"
+ },
+ {
+  "series": "Hell Divers",
+  "author": "Nicholas Sansbury Smith",
+  "narrator": "R.C. Bray",
+  "books": "Books 1-3",
+  "count": 3,
+  "genre": "scifi"
+ },
+ {
+  "series": "Joseph Bridgeman",
+  "author": "Nick Jones",
+  "narrator": "Ray Porter",
+  "books": "Books 1-3",
+  "count": 3,
+  "genre": "scifi"
+ },
+ {
+  "series": "Star Wars: Darth Bane",
+  "author": "Drew Karpyshyn",
+  "narrator": "",
+  "books": "Books 1-3",
+  "count": 3,
+  "genre": "scifi"
+ },
+ {
+  "series": "Heroes of Dune",
+  "author": "Brian Herbert, Kevin J. Anderson",
+  "narrator": "",
+  "books": "Books 1-2",
+  "count": 2,
+  "genre": "scifi"
+ },
+ {
+  "series": "Expeditionary Force",
+  "author": "Craig Alanson",
+  "narrator": "R.C. Bray",
+  "books": "Books 1-2",
+  "count": 2,
+  "genre": "scifi"
+ },
+ {
+  "series": "Star Wars: Darth Plagueis",
+  "author": "James Luceno",
+  "narrator": "",
+  "books": "Standalone",
+  "count": 1,
+  "genre": "scifi"
+ },
+ {
+  "series": "World War Z",
+  "author": "Max Brooks",
+  "narrator": "",
+  "books": "Standalone",
+  "count": 1,
+  "genre": "scifi"
+ },
+ {
+  "series": "Red Rising",
+  "author": "Pierce Brown",
+  "narrator": "Tim Gerard Reynolds",
+  "books": "",
+  "count": 0,
+  "genre": "scifi"
+ },
+ {
+  "series": "We're Alive: A Story of Survival",
+  "author": "Kc Wayland",
+  "narrator": "full cast",
+  "books": "Seasons 1-4",
+  "count": 4,
+  "genre": "drama"
+ },
+ {
+  "series": "The Sandman",
+  "author": "Neil Gaiman, Dirk Maggs",
+  "narrator": "full cast",
+  "books": "Acts I-II",
+  "count": 2,
+  "genre": "drama"
+ },
+ {
+  "series": "Impact Winter",
+  "author": "Travis Beacham",
+  "narrator": "full cast",
+  "books": "Season 1",
+  "count": 1,
+  "genre": "drama"
+ },
+ {
+  "series": "Zombies! Zombies! Zombies!",
+  "author": "edited by Otto Penzler",
+  "narrator": "Heather Costa, Matt Godfrey",
+  "books": "Anthology",
+  "count": 1,
+  "genre": "drama"
+ },
+ {
+  "series": "Tales of Dunk and Egg (graphic novels)",
+  "author": "George R.R. Martin, Ben Avery",
+  "narrator": "",
+  "books": "The Hedge Knight, The Sworn Sword",
+  "count": 2,
+  "genre": "comics"
+ },
+ {
+  "series": "Star Wars: The Thrawn Trilogy (comic)",
+  "author": "Mike Baron",
+  "narrator": "",
+  "books": "Comic adaptation",
+  "count": 1,
+  "genre": "comics"
+ },
+ {
+  "series": "Deadpool Kills the Marvel Universe",
+  "author": "Cullen Bunn",
+  "narrator": "",
+  "books": "Standalone",
+  "count": 1,
+  "genre": "comics"
+ },
+ {
+  "series": "Superman: Doomed",
+  "author": "Greg Pak",
+  "narrator": "",
+  "books": "Standalone",
+  "count": 1,
+  "genre": "comics"
+ }
+]
