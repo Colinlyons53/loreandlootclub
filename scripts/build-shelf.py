@@ -45,7 +45,41 @@ p = re.sub(r'<p class="lede">.*?</p>', f'<p class="lede">Every series the club h
 desc = f"Every LitRPG, fantasy and sci-fi series Lore &amp; Loot Club has finished, {n_series} series in all, from The Wandering Inn and Cradle to Dune and The Lord of the Rings."
 p = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{desc}">', p)
 p = re.sub(r'<meta property="og:description" content="[^"]*">', f'<meta property="og:description" content="{desc}">', p)
+favs = [x for x in items if x.get("favorite")]
+fav_html = "\n".join(f'''      <li>
+        <span class="fav-name">{e(x["series"])}</span>
+        <span class="fav-by">{e(x["author"])}, {e(x["books"])}</span>
+        <p>{e(x["favorite"])}</p>
+      </li>''' for x in favs)
+p = re.sub(r'(<ul class="fav-list">\n).*?(\n?    </ul>)', lambda m: m.group(1) + fav_html + "\n    </ul>", p, flags=re.S)
 page.write_text(p)
+
+# Bundles page
+def hours(length):
+    h = re.search(r"(\d+) hrs?", length); m = re.search(r"(\d+) mins?", length)
+    return int(h.group(1) if h else 0) + int(m.group(1) if m else 0) / 60
+bundles = sorted(json.loads((ROOT / "data/bundles.json").read_text()), key=lambda b: -hours(b["length"]))
+b_rows = "\n".join(f'''    <li>
+      <div class="b-main">
+        <span class="b-title">{e(b["title"])}</span>
+        <span class="b-by">{e(b["author"])}, read by {e(b["narrator"])}. {e(b["contains"])}.</span>
+      </div>
+      <span class="b-genre">{e(b["genre"])}</span>
+      <span class="b-len">{e(b["length"])}</span>
+      <a class="b-link" href="{e(b["url"])}" rel="noopener">On Audible<span class="sr">: {e(b["title"])}</span></a>
+    </li>''' for b in bundles)
+bld = {"@context": "https://schema.org", "@type": "ItemList", "name": "Best value Audible bundles",
+       "url": "https://loreandlootclub.com/bundles", "numberOfItems": len(bundles),
+       "itemListElement": [{"@type": "ListItem", "position": i + 1,
+                            "item": {"@type": "Audiobook", "name": b["title"], "url": b["url"],
+                                     "author": {"@type": "Person", "name": b["author"]},
+                                     "readBy": {"@type": "Person", "name": b["narrator"]}}}
+                           for i, b in enumerate(bundles)]}
+bp = ROOT / "public/bundles.html"
+q = bp.read_text()
+q = re.sub(r'(<ol class="bundles" id="bundles">\n).*?(\n?  </ol>)', lambda m: m.group(1) + b_rows + "\n  </ol>", q, flags=re.S)
+q = re.sub(r'(<script type="application/ld\+json">\n).*?(\n</script>)', lambda m: m.group(1) + json.dumps(bld, indent=1, ensure_ascii=False) + m.group(2), q, flags=re.S)
+bp.write_text(q)
 
 home = ROOT / "public/index.html"
 h = home.read_text()

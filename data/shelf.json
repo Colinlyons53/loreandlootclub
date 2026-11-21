@@ -77,7 +77,8 @@
   "narrator": "Jeff Hays, Annie Ellicott",
   "books": "Books 1-7",
   "count": 7,
-  "genre": "litrpg"
+  "genre": "litrpg",
+  "favorite": "An ant monster climbs from nothing to something terrifying, one evolution at a time. The colony grows into a civilization of its own."
  },
  {
   "series": "Life Reset",
@@ -157,7 +158,8 @@
   "narrator": "",
   "books": "Books 1-6",
   "count": 6,
-  "genre": "fantasy"
+  "genre": "fantasy",
+  "favorite": "Jim Butcher's six-book epic about a boy with no fury in a world where everyone else can command them. Roman legions meet elemental magic."
  },
  {
   "series": "The Stormlight Archive",
@@ -333,7 +335,8 @@
   "narrator": "",
   "books": "Books 1-3",
   "count": 3,
-  "genre": "scifi"
+  "genre": "scifi",
+  "favorite": "The Sith Lord who invented the Rule of Two: one master, one apprentice. A villain's-eye view of the Star Wars galaxy."
  },
  {
   "series": "Heroes of Dune",
